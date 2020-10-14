@@ -1,0 +1,175 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+	padding: 0;
+	margin: 0;
+  list-style: none;
+}
+
+body {
+		line-height: 1.8em;
+		font-size: 16px;
+}
+
+/* Typografie styling */
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a:hover,
+a:active {
+  color: #B2B0A4;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.color {
+  color: #666666;
+}
+
+.size-20 {
+  font-size: 20px;
+}
+
+.spacing {
+  letter-spacing: 1.8px;
+}
+
+
+/* Navigatie en logo styling */
+
+nav {
+  background-color: #101010;
+  color: #FFFFFF;
+}
+
+.logo {
+ font-weight: 300;
+ width: 50%;
+ font-size: 20px;
+ min-width: 200px;
+}
+
+.logo-color {
+ color: #B2B0A4;
+}
+
+nav {
+  display: flex;
+  height: 90px;
+  padding-top: 30px;
+  padding-left: 5%;
+}
+
+.nav-decoration {
+  background-color: #B2B0A4;
+  width: 100%;
+  height: 22px;
+}
+
+.menu-items,
+.language-selector {
+  display: flex;
+}
+
+.menu-items {
+  margin-right: 40px;
+}
+
+.menu-items * {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.language-selector {
+  margin-right: 92px;
+}
+
+.language-selector * {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+/* Hero header */
+
+.hero-header {
+  position: relative;
+}
+
+.hero-img {
+  width: 100%;
+  background-image: url("img/test.jpg");
+  background-size: cover;
+  height: 790px;
+  background-repeat: no-repeat;
+}
+
+.hero-block {
+  background-color: white;
+  width: 423px;
+  height: 620px;
+  position: absolute;
+  top: 0px;
+  right: 92px;
+}
+
+.hero-block * {
+  width: 70%;
+  margin: auto;
+}
+
+
+.light-button {
+  background-color: white;
+  border: 1px #B2B0A4 solid;
+  border-radius: 2px;
+  width: 80%;
+  height: 48px;
+  color: #B2B0A4;
+  position: absolute;
+  left: 15%;
+  bottom: 115px;
+}
+
+.hero-text-1 {
+  position: absolute;
+  top: 147px;
+  left: 15%;
+  text-align: center;
+}
+
+.hero-text-2 {
+  position: absolute;
+  top: 235px;
+  left: 15%;
+  text-align: center;
+}
+
+.hero-text-3 {
+  position: absolute;
+  top: 292px;
+  left: 15%;
+  text-align: center;
+}
+
+.hero-ul {
+  display: flex;
+  position: absolute;
+  top: 350px;
+  left: 15%;
+  text-align: center;
+}
