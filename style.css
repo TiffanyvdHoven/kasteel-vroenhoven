@@ -113,11 +113,15 @@ h1 {
 nav {
   background-color: #101010;
   color: #FFFFFF;
-  display: flex;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 5%;
-  flex-direction: column;
+}
+
+.nav-container {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5%;
+    flex-direction: column;
+
 }
 
 .nav-decoration {
@@ -145,7 +149,7 @@ nav {
 
 @media (min-width: 900px) {
 
-  nav {
+  .nav-container {
     flex-direction: row;
   }
 
@@ -347,4 +351,32 @@ hr {
  }
 
 
+}
+
+
+
+
+
+
+
+
+
+
+/* styling voor extreem grote schermen */
+
+@media (min-width: 1500px) {
+
+  .nav-container {
+    max-width: 1500px;
+    margin: auto;
+  }
+
+  .width-90 {
+    margin: 0 auto;
+    max-width: 1500px;
+  }
+
+  .hero-block {
+    right: 20%;
+  }
 }
