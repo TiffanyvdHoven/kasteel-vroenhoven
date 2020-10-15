@@ -73,7 +73,7 @@ h1 {
 
 /*  --------- Navigation bar  --------- */
 
-/*  interative hamburger icoon */
+/*  hamburger icoon */
 
 .mobile-icon{
   position: absolute;
@@ -87,21 +87,7 @@ h1 {
   height: 2px;
   background-color: white;
   margin: 6px 0;
-  transition: 0.4s;
 }
-
-.change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 4px);
-  transform: rotate(-45deg) translate(-9px, 4px);
-}
-
-.change .bar2 {opacity: 0;}
-
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -2px);
-  transform: rotate(45deg) translate(-8px, -2px);
-}
-
 
 /* Navigation for mobile */
 
