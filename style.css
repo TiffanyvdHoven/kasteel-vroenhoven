@@ -12,7 +12,13 @@ body {
 		font-size: 16px;
 }
 
-/* Typografie styling */
+.width-90 > * {
+  width: 90%;
+  margin-left: 5%;
+}
+
+
+/* --------- Typografie styling  --------- */
 
 a {
   text-decoration: none;
@@ -36,8 +42,12 @@ h1 {
   font-weight: 300;
 }
 
-.color {
+.dark-grey {
   color: #666666;
+}
+
+.color {
+  color: #B2B0A4;
 }
 
 .size-20 {
@@ -48,7 +58,7 @@ h1 {
   letter-spacing: 1.8px;
 }
 
-/* logo styling */
+/*  --------- logo styling  --------- */
 
 .logo {
  font-weight: 300;
@@ -61,6 +71,7 @@ h1 {
  color: #B2B0A4;
 }
 
+/*  --------- Navigation bar  --------- */
 
 /*  interative hamburger icoon */
 
@@ -92,7 +103,7 @@ h1 {
 }
 
 
-/* nav styling */
+/* Navigation for mobile */
 
 #mobile-nav,
 #mobile-nav-selector {
@@ -128,7 +139,6 @@ nav {
 .language-selector * {
   margin-right: 5px;
 }
-
 
 
 /* Navigation for desktop */
@@ -171,10 +181,11 @@ nav {
 }
 
 
-/* Hero header */
+/*  --------- Hero header section with CTA  --------- */
 
 .hero-header {
   position: relative;
+  margin-bottom: 120px;
 }
 
 .hero-img {
@@ -198,7 +209,6 @@ nav {
   width: 70%;
   margin: auto;
 }
-
 
 .light-button {
   background-color: white;
@@ -241,7 +251,17 @@ nav {
   text-align: center;
 }
 
-/* white hero block centered on small screens */
+/* decoratie lijn onder kasteel te koop */
+
+hr {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px !important;
+    width: 57px !important;
+    border: solid 1px #B2B0A4;
+}
+
+/* white header block centered on small screens */
 
 @media (max-width: 800px) {
 
@@ -259,5 +279,72 @@ nav {
     margin-top:auto;
     margin-bottom:auto;
   }
+
+}
+
+/*  --------- Impressie sectie  --------- */
+
+
+.tour-nav {
+  display: flex;
+  flex-flow: wrap;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.tour-nav * {
+  width: 5%;
+  min-width: 200px;
+  color: #666666;
+  height: 45px;
+}
+
+.tour-item-slider {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.tour-item-text > * {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.tour-item-info * {
+  display: inline-block;
+  margin-right: 10%;
+}
+
+
+@media (min-width: 1000px) {
+
+  .tour-nav {
+    justify-content: space-between;
+    max-width: 1000px;
+  }
+
+  .tour-nav * {
+    width: auto;
+    min-width: inherit;
+  }
+
+  .tour-item {
+    display: flex;
+  }
+
+  .tour-item-slider {
+    width: 65%;
+    max-width: 715px;
+  }
+
+  .tour-item-text {
+    margin-left: 60px;
+    margin-top: 60px;
+  }
+
+
+ .tour-item-text > * {
+   max-width: 350px;
+ }
+
 
 }
