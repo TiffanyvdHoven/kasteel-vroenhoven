@@ -301,7 +301,8 @@ hr {
   margin-top: 60px;
 }
 
-.tour-nav * {
+.tour-nav input,
+.tour-nav label {
   width: 5%;
   min-width: 200px;
   color: #666666;
@@ -331,7 +332,8 @@ hr {
     max-width: 1000px;
   }
 
-  .tour-nav * {
+  .tour-nav input,
+	.tour-nav label  {
     width: auto;
     min-width: inherit;
   }
@@ -357,6 +359,88 @@ hr {
 
 
 }
+
+
+/* filter function voor kasteel tour  */
+
+input[type="radio"] {
+    display:none;
+}
+
+input[type="radio"][id="V1"]:checked ~ .V2,
+input[type="radio"][id="V1"]:checked ~ .V3,
+input[type="radio"][id="V1"]:checked ~ .V4,
+input[type="radio"][id="V1"]:checked ~ .V5,
+input[type="radio"][id="V1"]:checked ~ .V6 {
+	display:none
+}
+
+input[type="radio"][id="V2"]:checked ~ .V1,
+input[type="radio"][id="V2"]:checked ~ .V3,
+input[type="radio"][id="V2"]:checked ~ .V4,
+input[type="radio"][id="V2"]:checked ~ .V5,
+input[type="radio"][id="V2"]:checked ~ .V6 {
+	display:none
+}
+
+input[type="radio"][id="V3"]:checked ~ .V1,
+input[type="radio"][id="V3"]:checked ~ .V2,
+input[type="radio"][id="V3"]:checked ~ .V4,
+input[type="radio"][id="V3"]:checked ~ .V5,
+input[type="radio"][id="V3"]:checked ~ .V6 {
+	display:none
+}
+
+input[type="radio"][id="V4"]:checked ~ .V1,
+input[type="radio"][id="V4"]:checked ~ .V2,
+input[type="radio"][id="V4"]:checked ~ .V3,
+input[type="radio"][id="V4"]:checked ~ .V5,
+input[type="radio"][id="V4"]:checked ~ .V6 {
+	display:none
+}
+
+input[type="radio"][id="V5"]:checked ~ .V1,
+input[type="radio"][id="V5"]:checked ~ .V2,
+input[type="radio"][id="V5"]:checked ~ .V3,
+input[type="radio"][id="V5"]:checked ~ .V4,
+input[type="radio"][id="V5"]:checked ~ .V6 {
+	display:none
+}
+
+input[type="radio"][id="V6"]:checked ~ .V1,
+input[type="radio"][id="V6"]:checked ~ .V2,
+input[type="radio"][id="V6"]:checked ~ .V3,
+input[type="radio"][id="V6"]:checked ~ .V4,
+input[type="radio"][id="V6"]:checked ~ .V5 {
+	display:none
+}
+
+/* color active filter functie */
+
+input[type="radio"]:hover + label {
+		color: #B2B0A4;
+}
+
+input[type="radio"]:checked + label {
+		color: #B2B0A4;
+		font-weight: 500;
+		position: relative;
+}
+
+/* decorative live under active item */
+
+input[type="radio"]:checked + label::after {
+ display: block;
+	content: '';
+	width: 100%;
+	height: 1.5px;
+	background: #B2B0A4;
+	position: absolute;
+	bottom: 15px;
+	left: 0;
+}
+
+
 
 /*  --------- Specificaties sectie  --------- */
 
