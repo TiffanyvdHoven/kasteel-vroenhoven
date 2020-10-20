@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasteel te koop: Kasteel vroenhoven</title>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+
+<nav>
+
+  <div class="nav-container">
+
+  <!-- logo -->
+  <h1 class="logo"> <span class="logo-color"> Kasteel </span> Vroenhoven </h1>
+
+
+  <!-- hamburger icon animation with JS -->
+    <div class="mobile-icon" onclick="mobileNavFunction()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+
+  <!-- navigation items -->
+  <ul class="menu-items" id="mobile-nav">
+      <li> <a href="#impressie" onclick="mobileNavFunction()" > Impressie </a> </li>
+      <li> <a href="#specificaties" onclick="mobileNavFunction()" > Specificaties </a> </li>
+      <li> <a href="#contact" onclick="mobileNavFunction()"> Contact </a> </li>
+  </ul>
+
+  <!-- language selector -->
+  <ul class="language-selector" id="mobile-nav-selector">
+    <li> <a href="home-nl.html" class="current-language" onclick="mobileNavFunction()"> NL </a> </li>
+    <li> | </li>
+    <li> <a href="home-en.html" onclick="mobileNavFunction()"> EN </a> </li>
+  </ul>
+
+  </div>
+
+</nav>
+
+<!-- colored bar under navigation -->
+<div class="nav-decoration"> </div>
+
+
+<!-- Hero header section with CTA -->
+<div class="hero-header">
+
+  <div class="hero-img"></div>
+
+  <div class="hero-block">
+
+    <h1 class="size-20 color light hero-text-1"> Kasteel te koop </h1>
+    <hr>
+    <h1 class="hero-text-2"> Kasteel vroenhoven </h1>
+    <p class="medium dark-grey spacing hero-text-3"> € 3.900.000 </p>
+
+    <ul class="hero-ul">
+      <li class="dark-grey light"> <img class="house-icon" src="img/house-icon.png" alt="house icon"> 1300 m2 </li>
+      <li class="dark-grey light"> <img class="tree-icon" src="img/tree-icon.png" alt="tree icon"> 25 ha </li>
+    </ul>
+
+    <a href="#impressie">
+      <button type="button" name="button" class="light-button">
+        Bekijk het kasteel
+      </button>
+    </a>
+
+  </div>
+
+</div>
+
+
+<!-- Sectie met impressie van het kasteel -->
+
+<section id="impressie" class="width-90">
+
+  <h1 class="color light"> impressie </h1>
+
+  <section class="tour-nav" >
+
+
+        <input type="radio" id="V1" name="color" checked/>
+        <label for="V1"> Exterieur</label>
+        <input type="radio" id="V2" name="color"/>
+        <label for="V2"> Begane grond </label>
+        <input type="radio" id="V3" name="color"/>
+        <label for="V3"> Eerste verdieping </label>
+        <input type="radio" id="V4" name="color"/>
+        <label for="V4"> Tweede verdieping </label>
+        <input type="radio" id="V5" name="color"/>
+        <label for="V5"> Boerderij </label>
+        <input type="radio" id="V6" name="color"/>
+        <label for="V6"> Tuin </label>
+
+
+        <!-- Filter V1 : Exterieur -->
+        <div class="tile V1">
+          <div class="container tour-item">
+            <img class="tour-item-slider" src= "img/test.jpg" alt="build and learn project example">
+            <div class="middle">
+              <div class="text tour-item-text">
+                <h2> Exterieur </h2>
+                <div class="tour-item-info">
+                  <p class="dark-grey"> 350 m2 </p>
+                  <p class="dark-grey"> Bekijk floorplan </p>
+                </div>
+                <p>Kasteel vroenhoven dateert uit 1820 en is omgeven door groen. Het kasteel beschikt over landerijen, een vijver, bossen en optioneel nog 25 ha extra land en een boomgaard.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Filter V2 : Begane grond -->
+        <div class="tile V2">
+          <div class="container tour-item">
+            <img class="tour-item-slider" src= "img/test.jpg" alt="build and learn project example">
+            <div class="middle">
+              <div class="text tour-item-text">
+                <h2> Begane grond </h2>
+                <div class="tour-item-info">
+                  <p class="dark-grey"> 350 m2 </p>
+                  <p class="dark-grey"> Bekijk floorplan </p>
+                </div>
+                <p>Kasteel vroenhoven dateert uit 1820 en is omgeven door groen. Het kasteel beschikt over landerijen, een vijver, bossen en optioneel nog 25 ha extra land en een boomgaard.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Filter V3 : Eerste verdieping -->
+        <div class="tile V3">
+          <div class="container tour-item">
+            <img class="tour-item-slider" src= "img/test.jpg" alt="build and learn project example">
+            <div class="middle">
+              <div class="text tour-item-text">
+                <h2> Eerste verdieping</h2>
+                <div class="tour-item-info">
+                  <p class="dark-grey"> 350 m2 </p>
+                  <p class="dark-grey"> Bekijk floorplan </p>
+                </div>
+                <p>Kasteel vroenhoven dateert uit 1820 en is omgeven door groen. Het kasteel beschikt over landerijen, een vijver, bossen en optioneel nog 25 ha extra land en een boomgaard.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Filter V4 : Tweede verdieping -->
+        <div class="tile V4">
+          <div class="container tour-item">
+            <img class="tour-item-slider" src= "img/test.jpg" alt="build and learn project example">
+            <div class="middle">
+              <div class="text tour-item-text">
+                <h2> Tweede verdieping </h2>
+                <div class="tour-item-info">
+                  <p class="dark-grey"> 350 m2 </p>
+                  <p class="dark-grey"> Bekijk floorplan </p>
+                </div>
+                <p>Kasteel vroenhoven dateert uit 1820 en is omgeven door groen. Het kasteel beschikt over landerijen, een vijver, bossen en optioneel nog 25 ha extra land en een boomgaard.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Filter V5 : Boerderij -->
+        <div class="tile V5">
+          <div class="container tour-item">
+            <img class="tour-item-slider" src= "img/test.jpg" alt="build and learn project example">
+            <div class="middle">
+              <div class="text tour-item-text">
+                <h2> Boerderij </h2>
+                <div class="tour-item-info">
+                  <p class="dark-grey"> 350 m2 </p>
+                  <p class="dark-grey"> Bekijk floorplan </p>
+                </div>
+                <p>Kasteel vroenhoven dateert uit 1820 en is omgeven door groen. Het kasteel beschikt over landerijen, een vijver, bossen en optioneel nog 25 ha extra land en een boomgaard.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Filter V6 : Tuin -->
+        <div class="tile V6">
+          <div class="container tour-item">
+            <img class="tour-item-slider" src= "img/test.jpg" alt="build and learn project example">
+            <div class="middle">
+              <div class="text tour-item-text">
+                <h2> Tuin </h2>
+                <div class="tour-item-info">
+                  <p class="dark-grey"> 350 m2 </p>
+                  <p class="dark-grey"> Bekijk floorplan </p>
+                </div>
+                <p>Kasteel vroenhoven dateert uit 1820 en is omgeven door groen. Het kasteel beschikt over landerijen, een vijver, bossen en optioneel nog 25 ha extra land en een boomgaard.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+  </section>
+
+</div>
+
+</section>
+
+
+<!-- Sectie met specificaties en map -->
+
+<section id="specificaties">
+
+  <div class="width-90">
+    <h1 class="color light"> specificaties </h1>
+  </div>
+
+  <div class="specificaties-flexbox">
+
+    <div id="map" class="map"> </div>
+
+    <div id="list" class="specificatie-list-container">
+      <ul class="specificaties-list width-90">
+        <li class="dark-grey"> <span class="big light large-number"> 3 </span> verdiepingen </li>
+        <li class="dark-grey"> <span class="big light large-number"> 9 </span> slaapkamers </li>
+        <li class="dark-grey"> <span class="big light large-number"> 9 </span> badkamers </li>
+        <li class="dark-grey"> <span class="big light large-number"> 1 </span> wijnkelder </li>
+        <li class="dark-grey"> <span class="big light large-number"> 2 </span> grote stallen </li>
+      </ul>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- Sectie met contact CTA -->
+
+<section id="contact" class="width-90">
+
+  <img class="contact-img" src="img/test.jpg" alt="kasteel te koop belgië">
+
+  <div class="contact-text">
+    <h1 class="light"> Heeft u interesse in kasteel Vroenhoven? </h1>
+    <p> Bent u op zoek naar een kasteel te koop in belgië en wilt u meer te weten komen over kasteel vroenhoven?
+    U kunt altijd vrijblijvend contact met ons opnemen. </p>
+    <a href="mailto:avanhout@onsbrabantnet.nl?SUBJECT=Kasteel vroenhoven: maak een afspraak">
+      <button class="cta-button" type="button" name="button">
+        Maak een afspraak
+      </button>
+    </a>
+  </div>
+
+</section>
+
+
+<!-- Footer met logo en contact informatie -->
+<footer>
+
+  <div class="footer-container">
+
+    <h1 class="logo footer-logo"> <span class="logo-color"> Kasteel </span> Vroenhoven </h1>
+
+    <ul class="adresgegevens-footer">
+      <li class="medium"> Kasteel vroenhoven </li>
+      <li> Zandrode Straat 4 </li>
+      <li> B-3470 Kortenaken </li>
+      <li> België </li>
+    </ul>
+
+    <ul class="contactgegevens-footer">
+      <li class="medium"> Contactpersoon </li>
+      <li> A. van Hout </li>
+      <li> +31 6 53 24 22 40 </li>
+      <li> avanhout@onsbrabantnet.nl </li>
+    </ul>
+
+  </div>
+
+  <!-- Rand onder footer -->
+  <ul class="footer-decoration">
+    <li> &copy; Kasteel vroenhoven <script type="text/javascript"> document.write(new Date().getFullYear()); </script></li>
+    <li class="hide-on-mobile"> | </li>
+    <li> Made by <a href="https://tiffanyvandenhoven.nl" class="medium hover-dark" target="_blank"> TiffanyvdHoven </a> </li>
+  </ul>
+
+</footer>
+
+
+
+
+<script type="text/javascript" src="navigation.js"> </script>
+
+</body>
+</html>

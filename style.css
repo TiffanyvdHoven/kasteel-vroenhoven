@@ -66,6 +66,10 @@ h1 {
 	color: #595852;
 }
 
+.current-language {
+	color: #B2B0A4;
+}
+
 /*  --------- logo styling  --------- */
 
 .logo {
@@ -220,6 +224,11 @@ nav {
   bottom: 115px;
 }
 
+.light-button:hover {
+	 background-color: #B2B0A4;
+	 color: white;
+}
+
 .hero-text-1 {
   position: absolute;
   top: 147px;
@@ -297,16 +306,22 @@ hr {
 .tour-nav {
   display: flex;
   flex-flow: wrap;
+	flex-direction: row;
+	justify-content: flex-start;
   margin-bottom: 60px;
   margin-top: 60px;
 }
 
+.tile {
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+
 .tour-nav input,
 .tour-nav label {
-  width: 5%;
-  min-width: 200px;
-  color: #666666;
+	color: #666666;
   height: 45px;
+	margin-right: 40%;
 }
 
 .tour-item-slider {
@@ -324,18 +339,33 @@ hr {
   margin-right: 10%;
 }
 
+@media (min-width: 550px) {
+
+	.tour-nav {
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+
+	.tour-nav input,
+	.tour-nav label {
+		margin-right: 60px;
+	}
+
+}
+
 
 @media (min-width: 1000px) {
 
   .tour-nav {
-    justify-content: space-between;
     max-width: 1000px;
+		justify-content: space-between;
   }
 
   .tour-nav input,
 	.tour-nav label  {
     width: auto;
     min-width: inherit;
+		margin-right: 0;
   }
 
   .tour-item {
@@ -430,7 +460,7 @@ input[type="radio"]:checked + label {
 /* decorative live under active item */
 
 input[type="radio"]:checked + label::after {
- display: block;
+	display: block;
 	content: '';
 	width: 100%;
 	height: 1.5px;
@@ -509,8 +539,8 @@ input[type="radio"]:checked + label::after {
 #contact {
 	display: flex;
 	flex-direction: column;
-	margin-top: 180px;
-	margin-bottom: 180px;
+	margin-top: 140px;
+	margin-bottom: 140px;
 }
 
 .contact-img {
@@ -534,12 +564,19 @@ input[type="radio"]:checked + label::after {
 	width: 90%;
 	max-width: 287px;
 	height: 59px;
-	background: #B2B0A4;
+	background-color: #B2B0A4;
 	color: white;
 	border: none;
 	text-align: left;
 	padding-left: 30px;
 	font-size: 16px;
+	border-radius: 2px;
+}
+
+.cta-button:hover {
+	background-color: white;
+	color: #B2B0A4;
+	border: 1px #B2B0A4 solid;
 }
 
 
@@ -547,6 +584,8 @@ input[type="radio"]:checked + label::after {
 
 	#contact {
 		flex-direction: row;
+		margin-top: 160px;
+		margin-bottom: 180px;
 	}
 
 	.contact-img {
@@ -577,13 +616,14 @@ footer {
 }
 
 .footer-container > * {
+	width: 30%;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	line-height: 30px;
 }
 
 .footer-logo {
-	width: 10%;
+	width: 30%;
 	color: white;
 }
 
@@ -594,7 +634,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	position: absolute;
 	bottom: 0;
 }
