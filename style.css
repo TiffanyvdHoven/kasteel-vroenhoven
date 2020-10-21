@@ -365,7 +365,7 @@ hr {
 @media (min-width: 1000px) {
 
   .tour-nav {
-    max-width: 1500px;
+    max-width: 1300px;
 		justify-content: space-between;
   }
 
