@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="nl" dir="ltr">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kasteel te koop: Kasteel vroenhoven</title>
     <link rel='stylesheet' type='text/css' href='style.css'>
+    <link rel="stylesheet" href="splide.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
   </head>
   <body>
@@ -169,7 +170,21 @@
         <!-- Filter V5 : Boerderij -->
         <div class="tile V5">
           <div class="container tour-item">
-            <img class="tour-item-slider" src= "img/test.jpg" alt="build and learn project example">
+
+            <!-- Afbeeldingen slider -->
+            <div class="splide">
+            	<div class="splide__track">
+            		<ul class="splide__list">
+            			<li class="splide__slide">Slide 01</li>
+            			<li class="splide__slide">Slide 02</li>
+            			<li class="splide__slide">Slide 03</li>
+            		</ul>
+            	</div>
+            </div>
+
+            <!-- <img class="tour-item-slider" src= "img/test.jpg" alt="build and learn project example"> -->
+
+
             <div class="middle">
               <div class="text tour-item-text">
                 <h2> Boerderij </h2>
@@ -289,6 +304,7 @@
 
 
 <script type="text/javascript" src="navigation.js"> </script>
+<script src="path-to-the-file/splide.min.js"></script>
 
 </body>
 </html>

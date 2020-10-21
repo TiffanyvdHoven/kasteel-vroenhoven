@@ -315,6 +315,7 @@ hr {
 .tile {
 	margin-top: 40px;
 	margin-bottom: 100px;
+	width: 100%;
 }
 
 .tour-nav input,
@@ -338,6 +339,13 @@ hr {
   display: inline-block;
   margin-right: 10%;
 }
+
+.slide-item {
+	width: 100%;
+	height: auto;
+}
+
+
 
 @media (min-width: 550px) {
 
@@ -402,7 +410,9 @@ input[type="radio"][id="V1"]:checked ~ .V3,
 input[type="radio"][id="V1"]:checked ~ .V4,
 input[type="radio"][id="V1"]:checked ~ .V5,
 input[type="radio"][id="V1"]:checked ~ .V6 {
-	display:none
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
 }
 
 input[type="radio"][id="V2"]:checked ~ .V1,
@@ -410,7 +420,9 @@ input[type="radio"][id="V2"]:checked ~ .V3,
 input[type="radio"][id="V2"]:checked ~ .V4,
 input[type="radio"][id="V2"]:checked ~ .V5,
 input[type="radio"][id="V2"]:checked ~ .V6 {
-	display:none
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
 }
 
 input[type="radio"][id="V3"]:checked ~ .V1,
@@ -418,7 +430,9 @@ input[type="radio"][id="V3"]:checked ~ .V2,
 input[type="radio"][id="V3"]:checked ~ .V4,
 input[type="radio"][id="V3"]:checked ~ .V5,
 input[type="radio"][id="V3"]:checked ~ .V6 {
-	display:none
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
 }
 
 input[type="radio"][id="V4"]:checked ~ .V1,
@@ -426,7 +440,9 @@ input[type="radio"][id="V4"]:checked ~ .V2,
 input[type="radio"][id="V4"]:checked ~ .V3,
 input[type="radio"][id="V4"]:checked ~ .V5,
 input[type="radio"][id="V4"]:checked ~ .V6 {
-	display:none
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
 }
 
 input[type="radio"][id="V5"]:checked ~ .V1,
@@ -434,7 +450,9 @@ input[type="radio"][id="V5"]:checked ~ .V2,
 input[type="radio"][id="V5"]:checked ~ .V3,
 input[type="radio"][id="V5"]:checked ~ .V4,
 input[type="radio"][id="V5"]:checked ~ .V6 {
-	display:none
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
 }
 
 input[type="radio"][id="V6"]:checked ~ .V1,
@@ -442,7 +460,9 @@ input[type="radio"][id="V6"]:checked ~ .V2,
 input[type="radio"][id="V6"]:checked ~ .V3,
 input[type="radio"][id="V6"]:checked ~ .V4,
 input[type="radio"][id="V6"]:checked ~ .V5 {
-	display:none
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
 }
 
 /* color active filter functie */
