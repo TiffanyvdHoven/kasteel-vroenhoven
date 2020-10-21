@@ -302,6 +302,11 @@ hr {
 
 /*  --------- Impressie sectie  --------- */
 
+#impressie {
+	padding-top: 20px;
+	margin-top: -50px;
+}
+
 
 .tour-nav {
   display: flex;
@@ -495,8 +500,9 @@ input[type="radio"]:checked + label::after {
 /*  --------- Specificaties sectie  --------- */
 
 #specificaties {
-  margin-top: 60px;
-  margin-bottom: 60px;
+	padding-top: 20px;
+	margin-top: -40px;
+	margin-bottom: 60px;
 }
 
 .map {
@@ -559,7 +565,8 @@ input[type="radio"]:checked + label::after {
 #contact {
 	display: flex;
 	flex-direction: column;
-	margin-top: 140px;
+	padding-top: 80px;
+	margin-top: -40px;
 	margin-bottom: 140px;
 }
 
@@ -603,8 +610,9 @@ input[type="radio"]:checked + label::after {
 
 	#contact {
 		flex-direction: row;
-		margin-top: 160px;
-		margin-bottom: 180px;
+		padding-top: 100px;
+		margin-top: -40px;
+		margin-bottom: 160px;
 	}
 
  	.contact-img {
