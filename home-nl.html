@@ -158,7 +158,17 @@
                 <h2> Begane grond </h2>
                 <div class="tour-item-info">
                   <p class="dark-grey"> 350 m2 </p>
-                  <p class="dark-grey"> Bekijk floorplan </p>
+                  <!-- floorplan trigger -->
+                  <p class="dark-grey" id="myBtn" onclick="openModal()"> Bekijk floorplan </p>
+
+                  <!-- Floorplan popup -->
+                  <div id="myModal" class="modal">
+                    <div class="modal-content">
+                      <span onclick="closeModal()" class="close">&times;</span>
+                      <img src="img/floorplan/plattegrond1.jpg" alt="plattegrond">
+                    </div>
+                  </div>
+
                 </div>
                 <p>Kasteel vroenhoven dateert uit 1820 en is omgeven door groen. Het kasteel beschikt over landerijen, een vijver, bossen en optioneel nog 25 ha extra land en een boomgaard.</p>
               </div>
@@ -195,7 +205,16 @@
                 <h2> Eerste verdieping</h2>
                 <div class="tour-item-info">
                   <p class="dark-grey"> 350 m2 </p>
-                  <p class="dark-grey"> Bekijk floorplan </p>
+                  <!-- floorplan trigger -->
+                  <p class="dark-grey" id="myBtn1" onclick="openModal1()"> Bekijk floorplan </p>
+
+                  <!-- Floorplan popup -->
+                  <div id="myModal1" class="modal">
+                    <div class="modal-content">
+                      <span class="close" onclick="closeModal1()">&times;</span>
+                      <img src="img/floorplan/plattegrond2.jpg" alt="plattegrond">
+                    </div>
+                  </div>
                 </div>
                 <p>Kasteel vroenhoven dateert uit 1820 en is omgeven door groen. Het kasteel beschikt over landerijen, een vijver, bossen en optioneel nog 25 ha extra land en een boomgaard.</p>
               </div>
@@ -391,6 +410,8 @@
 <script type="text/javascript" src="navigation.js"> </script>
 <script src="splide.min.js"></script>
 <script src="slideshow.js"></script>
+<script src="modal.js"></script>
+
 
 
 </body>
