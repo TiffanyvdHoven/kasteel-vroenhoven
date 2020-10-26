@@ -499,7 +499,8 @@ input[type="radio"]:checked + label::after {
 /* Pop up modal voor floorplan */
 
 #myBtn:hover,
-#myBtn1:hover {
+#myBtn1:hover,
+#myBtn2:hover {
 	color: #B2B0A4;
 	cursor: pointer;
 }

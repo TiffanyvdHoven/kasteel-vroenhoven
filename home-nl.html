@@ -251,7 +251,16 @@
                 <h2> Tweede verdieping </h2>
                 <div class="tour-item-info">
                   <p class="dark-grey"> 350 m2 </p>
-                  <p class="dark-grey"> Bekijk floorplan </p>
+                  <!-- floorplan trigger -->
+                  <p class="dark-grey" id="myBtn2" onclick="openModal2()"> Bekijk floorplan </p>
+
+                  <!-- Floorplan popup -->
+                  <div id="myModal2" class="modal">
+                    <div class="modal-content">
+                      <span onclick="closeModal2()" class="close">&times;</span>
+                      <img src="img/floorplan/plattegrond3.jpg" alt="plattegrond">
+                    </div>
+                  </div>
                 </div>
                 <p>Op de tweede verdieping vind u 2 slaapkamers met ieder een eigen badkamer. </p>
                 <p>Daarnaast is er een dressing room en zijn er 3 ruime kamers waarvan indien gewenst extra slaapkamers gemaakt kunnen worden.</p>
