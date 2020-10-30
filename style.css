@@ -377,7 +377,7 @@ hr {
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1290px) {
 
   .tour-nav {
     max-width: 1300px;
@@ -397,7 +397,7 @@ hr {
 
   .tour-item-slider {
     width: 65%;
-    max-width: 715px;
+		max-width: 850px;
   }
 
   .tour-item-text {
@@ -407,7 +407,9 @@ hr {
 
 
  .tour-item-text > * {
-   max-width: 350px;
+   /* max-width: 350px; */
+	 max-width: 250px;
+
  }
 
 
