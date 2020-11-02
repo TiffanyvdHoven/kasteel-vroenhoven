@@ -343,11 +343,13 @@ hr {
 .tour-item-slider {
   width: 100% !important;
   margin-bottom: 50px;
+	max-width: 850px;
 }
 
 .tour-item-text > * {
   padding-top: 5px;
   padding-bottom: 20px;
+	max-width: 850px;
 }
 
 .tour-item-info * {
