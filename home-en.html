@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Castle for sale: Kasteel Vroenhoven</title>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link rel="stylesheet" href="splide.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+
+<nav>
+
+  <div class="nav-container">
+
+  <!-- logo -->
+  <h1 class="logo"> <span class="logo-color"> Kasteel </span> Vroenhoven </h1>
+
+
+  <!-- hamburger icon animation with JS -->
+    <div class="mobile-icon" onclick="mobileNavFunction()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+
+  <!-- navigation items -->
+  <ul class="menu-items" id="mobile-nav">
+      <li> <a href="#impressie" onclick="mobileNavFunction()" > Tour </a> </li>
+      <li> <a href="#specificaties" onclick="mobileNavFunction()" > Information </a> </li>
+      <li> <a href="#contact" onclick="mobileNavFunction()"> Contact </a> </li>
+  </ul>
+
+  <!-- language selector -->
+  <ul class="language-selector" id="mobile-nav-selector">
+    <li> <a href="home-nl.html" onclick="mobileNavFunction()"> NL </a> </li>
+    <li> | </li>
+    <li> <a href="home-en.html" class="current-language" onclick="mobileNavFunction()"> EN </a> </li>
+  </ul>
+
+  </div>
+
+</nav>
+
+<!-- colored bar under navigation -->
+<div class="nav-decoration"> </div>
+
+
+<!-- Hero header section with CTA -->
+<div class="hero-header">
+
+  <div class="hero-img"></div>
+
+  <div class="hero-block">
+
+    <h1 class="size-20 color light hero-text-1"> Castle for sale </h1>
+    <hr>
+    <h1 class="hero-text-2"> Kasteel vroenhoven </h1>
+    <p class="medium dark-grey spacing hero-text-3"> € 3.900.000 </p>
+
+    <ul class="hero-ul">
+      <li class="dark-grey light"> <img class="house-icon" src="img/icons/house-icon.png" alt="house icon"> 1300 m2 </li>
+      <li class="dark-grey light"> <img class="tree-icon" src="img/icons/tree-icon.png" alt="tree icon"> 25 ha </li>
+    </ul>
+
+    <a href="#impressie">
+      <button type="button" name="button" class="light-button">
+        View the castle
+      </button>
+    </a>
+
+  </div>
+
+</div>
+
+
+<!-- Sectie met impressie van het kasteel -->
+
+<section id="impressie" class="width-90">
+
+  <h1 class="color light"> Tour </h1>
+
+  <section class="tour-nav" >
+
+
+        <input type="radio" id="V1" name="color" checked/>
+        <label for="V1"> Exterior </label>
+        <input type="radio" id="V2" name="color"/>
+        <label for="V2"> Ground floor </label>
+        <input type="radio" id="V3" name="color"/>
+        <label for="V3"> First floor </label>
+        <input type="radio" id="V4" name="color"/>
+        <label for="V4"> Second floor </label>
+        <input type="radio" id="V5" name="color"/>
+        <label for="V5"> Farmhouse </label>
+        <input type="radio" id="V6" name="color"/>
+        <label for="V6"> Garden </label>
+
+
+        <!-- Filter V1 : Exterieur -->
+        <div class="tile V1">
+          <div class="container tour-item">
+
+            <!-- Afbeeldingen slider -->
+            <div class="splide slider1 tour-item-slider">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide"><img class="slide-item" src= "img/kasteel/kasteel-3.jpg" alt="Castle for sale Belgium"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/kasteel/kasteel-2.jpg" alt="Castle for sale Belgium"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/kasteel/kasteel-1.jpg" alt="Castle for sale Belgium"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/kasteel/Exterieur-1.jpg" alt="Castle for sale Belgium"></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="middle">
+              <div class="text tour-item-text">
+                <h2> Exterior </h2>
+                <div class="tour-item-info">
+                </div>
+                <p> Castle Vroenhoven is fully renovated in 2005. The castle features a beautiful landscaped park garden with ponds, orchards, woods, impressive driveways and a wine cellar.</p>
+                <p> The location of the castle is particularly favorable. With good accessibility to motorways, cities such as Diest and Hasselt are just around the corner.  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Filter V2 : Begane grond -->
+        <div class="tile V2">
+          <div class="container tour-item">
+
+
+            <!-- Afbeeldingen slider Begane grond -->
+            <div class="splide slider2 tour-item-slider">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide"><img class="slide-item" src= "img/BG/BG-1.jpg" alt="Castle for sale europe"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/BG/BG-2.jpg" alt="Castle for sale europe"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/BG/BG-3.jpg" alt="Castle for sale europe"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/BG/BG-4.jpg" alt="Castle for sale europe"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/BG/BG-5.jpg" alt="Castle for sale europe"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/BG/BG-6.jpg" alt="Castle for sale europe"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/BG/BG-7.jpg" alt="Castle for sale europe"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/BG/BG-8.jpg" alt="Castle for sale europe"></li>
+                </ul>
+              </div>
+            </div>
+
+
+            <div class="middle">
+              <div class="text tour-item-text">
+                <h2> Ground floor </h2>
+                <div class="tour-item-info">
+                  <p class="dark-grey"> 350 m2 </p>
+                  <!-- floorplan trigger -->
+                  <p class="dark-grey" id="myBtn" onclick="openModal()"> View floorplan </p>
+
+                  <!-- Floorplan popup -->
+                  <div id="myModal" class="modal">
+                    <div class="modal-content">
+                      <span onclick="closeModal()" class="close">&times;</span>
+                      <img src="img/floorplan/plattegrond1.jpg" alt="plattegrond">
+                    </div>
+                  </div>
+
+                </div>
+                <p> On the ground floor you will find the beautiful salons, dining and living rooms, kitchen, toilets, elevator and a spacious bar. </p>
+                <p> You will also find a garage with space for 2 vehicles and a mezzanine above the garage with two extra bedrooms. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Filter V3 : Eerste verdieping -->
+        <div class="tile V3">
+          <div class="container tour-item">
+
+            <!-- Afbeeldingen slider -->
+            <div class="splide slider3 tour-item-slider">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide"><img class="slide-item" src= "img/eerste-verdieping/FF-1.jpg" alt="Castle for sale "></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/eerste-verdieping/FF-2.jpg" alt="Castle for sale "></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/eerste-verdieping/FF-3.jpg" alt="Castle for sale "></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/eerste-verdieping/FF-4.jpg" alt="Castle for sale "></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/eerste-verdieping/FF-7.jpg" alt="Castle for sale "></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/eerste-verdieping/FF-5.jpg" alt="Castle for sale "></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/eerste-verdieping/FF-6.jpg" alt="Castle for sale "></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/eerste-verdieping/FF-8.jpg" alt="Castle for sale "></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/eerste-verdieping/FF-9.jpg" alt="Castle for sale "></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="middle">
+              <div class="text tour-item-text">
+                <h2> First floor </h2>
+                <div class="tour-item-info">
+                  <p class="dark-grey"> 350 m2 </p>
+                  <!-- floorplan trigger -->
+                  <p class="dark-grey" id="myBtn1" onclick="openModal1()"> View floorplan </p>
+
+                  <!-- Floorplan popup -->
+                  <div id="myModal1" class="modal">
+                    <div class="modal-content">
+                      <span class="close" onclick="closeModal1()">&times;</span>
+                      <img src="img/floorplan/plattegrond2.jpg" alt="plattegrond">
+                    </div>
+                  </div>
+                </div>
+                  <p> On the first floor you will find 5 beautiful bedrooms with en suite bathrooms.  </p>
+                  <p> You will also find a spacious hallway with a dressing room and a balcony with a beautiful view over the pond.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Filter V4 : Tweede verdieping -->
+        <div class="tile V4">
+          <div class="container tour-item">
+
+            <!-- Afbeeldingen slider -->
+            <div class="splide slider4 tour-item-slider">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide"><img class="slide-item" src= "img/tweede-verdieping/SecondFloor-3.JPG" alt="Castle for sale Belgium"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/tweede-verdieping/SecondFloor-2.JPG" alt="Castle for sale Belgium"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/tweede-verdieping/SecondFloor-4.JPG" alt="Castle for sale Belgium"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/tweede-verdieping/SecondFloor-5.JPG" alt="Castle for sale Belgium"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/tweede-verdieping/SecondFloor-6.JPG" alt="Castle for sale Belgium"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/tweede-verdieping/SecondFloor-7.JPG" alt="Castle for sale Belgium"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/tweede-verdieping/SecondFloor-8.JPG" alt="Castle for sale Belgium"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/tweede-verdieping/SecondFloor-9.JPG" alt="Castle for sale Belgium"></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="middle">
+              <div class="text tour-item-text">
+                <h2> Second floor </h2>
+                <div class="tour-item-info">
+                  <p class="dark-grey"> 350 m2 </p>
+                  <!-- floorplan trigger -->
+                  <p class="dark-grey" id="myBtn2" onclick="openModal2()"> View floorplan </p>
+
+                  <!-- Floorplan popup -->
+                  <div id="myModal2" class="modal">
+                    <div class="modal-content">
+                      <span onclick="closeModal2()" class="close">&times;</span>
+                      <img src="img/floorplan/plattegrond3.jpg" alt="plattegrond">
+                    </div>
+                  </div>
+                </div>
+                <p> On the second floor you will find 2 bedrooms with en suit bathrooms. </p>
+                <p> There is also a dressing room and a possibility for 3 more bedrooms on the second floor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Filter V5 : Boerderij -->
+        <div class="tile V5">
+          <div class="container tour-item">
+
+            <!-- Afbeeldingen slider -->
+            <div class="splide slider5 tour-item-slider">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide"><img class="slide-item" src= "img/Boerderij/Boerderij-5.JPG" alt="Castle for sale Belgium"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/Boerderij/Boerderij-1.JPG" alt="Castle for sale Belgium"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/Boerderij/Boerderij-3.JPG" alt="Castle for sale Belgium"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/Boerderij/Boerderij-4.JPG" alt="Castle for sale Belgium"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/Boerderij/Boerderij-6.jpg" alt="Castle for sale Belgium"></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="middle">
+              <div class="text tour-item-text">
+                <h2> Farmhouse </h2>
+                <div class="tour-item-info">
+                </div>
+                <p>The large farmhouse next to the castle on the estate, has also been completely renovated. The farmhouse features 5 bedrooms, 2 bathrooms and a kitchen. </p>
+                <p>Next to the farmhouse there are 2 large barns which could be transformed into stables. </p>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Filter V6 : Tuin -->
+        <div class="tile V6">
+          <div class="container tour-item">
+
+            <!-- Afbeeldingen slider -->
+            <div class="splide slider6 tour-item-slider">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide"><img class="slide-item" src= "img/Tuin/Tuin-1.JPG" alt="Castle for sale Belgium"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/Tuin/Tuin-2.jpg" alt="Castle for sale Belgium"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/Tuin/Tuin-3.jpg" alt="Castle for sale Belgium"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/Tuin/Tuin-4.JPG" alt="Castle for sale Belgium"></li>
+                  <li class="splide__slide"><img class="slide-item" src= "img/Tuin/Tuin-5.jpg" alt="Castle for sale Belgium"></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="middle">
+              <div class="text tour-item-text">
+                <h2> Garden </h2>
+                <div class="tour-item-info">
+                </div>
+                <p>The spacious terrace at the backside of the castle with fountain-pond gives an impressive and wide view over the estate. </p>
+                <p> The castle is on an estate of no less than 25 hectares with an optional approx. 45 hectares to purchase.
+              </div>
+            </div>
+          </div>
+        </div>
+
+  </section>
+
+</div>
+
+</section>
+
+
+<!-- Sectie met specificaties en map -->
+
+<section id="specificaties">
+
+  <div class="width-90">
+    <h1 class="color light"> Information </h1>
+  </div>
+
+  <div class="specificaties-flexbox">
+
+    <div id="map" class="map"> </div>
+
+    <div id="list" class="specificatie-list-container">
+      <ul class="specificaties-list width-90">
+        <li class="dark-grey"> <span class="big light large-number"> 3 </span> Floors </li>
+        <li class="dark-grey"> <span class="big light large-number"> 9 </span> Bedrooms </li>
+        <li class="dark-grey"> <span class="big light large-number"> 9 </span> Bathrooms </li>
+        <li class="dark-grey"> <span class="big light large-number"> 1 </span> Wine cellar </li>
+        <li class="dark-grey"> <span class="big light large-number"> 3 </span> Large barns </li>
+      </ul>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- Sectie met contact CTA -->
+
+<section id="contact" class="width-90">
+
+  <img class="contact-img" src="img/kasteel-te-koop-belgie.jpg" alt="kasteel vroenhoven te koop">
+
+  <div class="contact-text">
+    <h1 class="light"> Are you interested in castle Vroenhoven? </h1>
+    <p> Are you looking for a unique one of a kind castle for sale in Belgium? Please contact us if you require any further information or make an appointment to tour the castle. </p>
+    <a href="mailto:avanhout@onsbrabantnet.nl?SUBJECT=Kasteel Vroenhoven: make an appointment">
+      <button class="cta-button" type="button" name="button">
+        Make an appointment
+      </button>
+    </a>
+  </div>
+
+</section>
+
+
+<!-- Footer met logo en contact informatie -->
+<footer>
+
+  <div class="footer-container">
+
+    <h1 class="logo footer-logo"> <span class="logo-color"> Kasteel </span> Vroenhoven </h1>
+
+    <ul class="adresgegevens-footer">
+      <li class="medium"> Kasteel vroenhoven </li>
+      <li> Zandrode Straat 4 </li>
+      <li> B-3470 Kortenaken </li>
+      <li> Belgium </li>
+    </ul>
+
+    <ul class="contactgegevens-footer">
+      <li class="medium"> Contact </li>
+      <li> A. van Hout </li>
+      <li> +31 6 53 24 22 40 </li>
+      <li> avanhout@onsbrabantnet.nl </li>
+    </ul>
+
+  </div>
+
+  <!-- Rand onder footer -->
+  <ul class="footer-decoration">
+    <li> &copy; Kasteel vroenhoven <script type="text/javascript"> document.write(new Date().getFullYear()); </script></li>
+    <li class="hide-on-mobile"> | </li>
+    <li> Made by <a href="https://tiffanyvandenhoven.nl" class="medium hover-dark" target="_blank"> TiffanyvdHoven </a> </li>
+  </ul>
+
+</footer>
+
+
+<script type="text/javascript" src="navigation.js"> </script>
+<script src="splide.min.js"></script>
+<script src="slideshow.js"></script>
+<script src="modal.js"></script>
+
+
+
+</body>
+</html>

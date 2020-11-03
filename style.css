@@ -198,6 +198,17 @@ nav {
   background-repeat: no-repeat;
 }
 
+@media (max-width: 1100px) {
+
+	.hero-img {
+		width: 100%;
+		background-image: url("img/kasteel-vroenhoven-mobile.jpg");
+		background-size: cover;
+		height: 790px;
+		background-repeat: no-repeat;
+	}
+}
+
 .hero-block {
   background-color: white;
   position: absolute;
